@@ -1,0 +1,9 @@
+title=slurm_build
+module=$DISTRIBUTED_BUILD_HOME/lib/slurm_build.jar
+sources= \
+  src/distributed_build.scala \
+  src/tools.scala
+services= \
+  isabelle.distributedbuild.Tools
+requirements= \
+  env:ISABELLE_SCALA_JAR

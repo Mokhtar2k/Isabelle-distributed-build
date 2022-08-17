@@ -1,0 +1,5 @@
+package isabelle.distributedbuild
+
+import isabelle.Isabelle_Scala_Tools
+
+class Tools extends Isabelle_Scala_Tools(Distributed_Build.isabelle_tool)
